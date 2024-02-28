@@ -1,5 +1,9 @@
 ## Usage
 
+### Download the repository
+1. Clone or download the repository: `git clone https://github.com/m-a-x-c/simple-crypter-in-C.git`
+2. Open terminal/cmd/powershell in the directory you just created: `cd simple-crypter-in-C.git`
+
 ### Creating a resource file for your icon so you can embed it in the executable:
 1. Put your icon in the same directory as crypter.c, stub.c, resource.rc, and manifest.xml.
 2. Rename the icon to `appicon.ico`.
