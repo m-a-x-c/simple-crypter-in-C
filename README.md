@@ -1,6 +1,4 @@
-[VirusTotal Demo](virustotal.png)
-Link: https://www.virustotal.com/gui/file/82e4a83ec6c6d5976783f33007f4b3d5ddf2e6d7b8f11b7c6a7d2a87d4e8867f?nocache=1
-##Usage
+## Usage
 
 ### Creating a resource file for your icon so you can embed it in the executable:
 1. Put your icon in the same directory as crypter.c, stub.c, resource.rc, and manifest.xml.
