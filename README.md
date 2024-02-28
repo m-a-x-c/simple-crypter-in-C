@@ -7,7 +7,8 @@
 ### Creating a resource file for your icon so you can embed it in the executable:
 1. Put the icon you want your executable to have in the same directory as crypter.c, stub.c, resource.rc, and manifest.xml.
 2. Rename the icon to `appicon.ico`.
-3. Compile the resource file: `windres resource.rc -O coff -o resource.res`
+   - You will have the delete the defailt `appicon.ico` that's already in there.
+4. Compile the resource file: `windres resource.rc -O coff -o resource.res`
     - This will create a compiled version of your icon in the same directory titled `resource.res`.
 
 ### Creating the packed executable:
